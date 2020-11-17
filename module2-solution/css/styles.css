@@ -2,40 +2,47 @@
 * {
   box-sizing: border-box;
   font-family: Tahoma, Helvetica, sans-serif;
-  font-size: 100%
 }
 h1 {
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 2em;
 }
 
 .lorem {
-
+  padding: 50px 10px 5px 10px;
   font-family: sans-serif;
-  font-weight: bold;
-  border: 3px solid black;
-  background-color: #979797;
-  width: 90%;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 30px;
+  font-size: 1em;
+  position: relative;
 
-  padding: 10px;
-  padding-top: 50px;
-  padding-bottom: 4px;
+
 }
-.menu{
-  font-size: 1.3em;
-  text-align: center;
-  font-weight: bold;
-  float: right;
-  margin-right: 22px;
-  background-color: #E79B98;
+
+.col_title {
+  background-color: #979797;
+    border: 3px solid black;
+    margin-top: 20px; 
+    margin-right: 15px; 
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 3px;
+    position: relative;
+}
+span {
+  font-size: 1.5em;
+  width: 180px;
   border: 3px solid black;
   padding: 5px;
-  width: 170px;
+  font-weight: bold;
+  text-align: center;
+  float: right; top :0; right: 0; margin: -3px;
+  position: absolute;
+
+}
+.menu{
+  background-color: #E79B98;
+
 }
 .menu2{
   background-color: #B54747;
@@ -103,7 +110,7 @@ footer{
 /********** Tablet view **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: right;
+    float: left;
   }
   .col-md-1 {
     width: 8.33%;
